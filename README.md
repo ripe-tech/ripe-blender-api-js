@@ -1,2 +1,3 @@
-# ripe-blender-api-js
-RIPE Blender Javascript API client
+# RIPE Blender API for Javascript
+
+RIPE Blender Javascript API client.
