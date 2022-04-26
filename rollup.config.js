@@ -25,7 +25,7 @@ export default [
     {
         input: "js/index.js",
         output: {
-            name: "ripeInvoiceExpress",
+            name: "ripeBlender",
             file: pkg.browser,
             banner: banner,
             format: "umd",

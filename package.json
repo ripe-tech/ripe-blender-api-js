@@ -1,7 +1,7 @@
 {
     "name": "ripe-blender-api",
     "version": "0.1.0",
-    "description": "The RIPE Invoice Express API client",
+    "description": "The RIPE Blender API client",
     "keywords": [
         "api",
         "client",

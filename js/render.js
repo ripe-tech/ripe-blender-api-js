@@ -1,7 +1,7 @@
 export const RenderAPI = superclass =>
     class extends superclass {
         async render(options = {}) {
-            const url = this.invoicingBaseUrl + "render";
+            const url = this.baseUrl + "render";
 
             const params = {};
             if (options.sessionId) params.session_id = options.sessionId;
