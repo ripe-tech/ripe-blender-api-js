@@ -9,7 +9,7 @@ export const RenderAPI = superclass =>
             if (options.format) params.format = options.format;
             if (options.videoFormat) params.video_format = options.videoFormat;
             if (options.outputName) params.output_name = options.outputName;
-            if (options.writeToFile) params.write_to_file = options.writeToFile;
+            if (options.writeStill) params.write_still = options.writeStill;
             if (options.animation) params.animation = options.animation;
 
             const response = await this.get(url, {
