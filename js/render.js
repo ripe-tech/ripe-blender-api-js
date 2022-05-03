@@ -12,7 +12,7 @@ export const RenderAPI = superclass =>
             if (options.writeStill) params.write_still = options.writeStill;
             if (options.animation) params.animation = options.animation;
 
-            const response = await this.get(url, {
+            const response = await this.post(url, {
                 params: params,
                 ...options
             });
