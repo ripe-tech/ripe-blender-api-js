@@ -2,10 +2,11 @@ import { API as BaseAPI, mix, load, conf } from "yonius";
 
 import { LoadAPI } from "./load";
 import { RenderAPI } from "./render";
+import { SceneAPI } from "./scene";
 
 const BASE_URL = "http://localhost:8080/api/";
 
-export class API extends mix(BaseAPI).with(LoadAPI, RenderAPI) {
+export class API extends mix(BaseAPI).with(LoadAPI, RenderAPI, SceneAPI) {
     constructor(kwargs = {}) {
         super(kwargs);
         this.baseUrl = conf("RIPE_BLENDER_BASE_URL", BASE_URL);
