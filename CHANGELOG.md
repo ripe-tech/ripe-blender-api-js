@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-* Bumped packages
+*
 
 ### Fixed
 
@@ -25,3 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Methods to load file and render an image in Blender - [ripe-orchestra/#15](https://github.com/ripe-tech/ripe-orchestra/issues/15)
 * Methods to setup the scene in Blender - [3db/#227](https://github.com/ripe-tech/3db/issues/227)
+
+### Changed
+
+* Bumped packages
