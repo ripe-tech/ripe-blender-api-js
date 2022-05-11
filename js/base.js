@@ -25,8 +25,8 @@ export class API extends mix(BaseAPI).with(LoadAPI, RenderAPI, SceneAPI) {
         options.kwargs = options.kwargs !== undefined ? options.kwargs : {};
         const auth = options.kwargs.auth === undefined ? true : options.kwargs.auth;
         delete options.kwargs.auth;
-        if (auth) {
-            if (this.token) options.headers.Authorization = `Bearer ${this.token}`;
+        if (auth && this.token) {
+            options.headers.Authorization = `Bearer ${this.token}`;
         }
     }
 }
