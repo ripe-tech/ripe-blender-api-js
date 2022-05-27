@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 * Not using `Bearer undefined` token when no token is defined - [ripe-orchestra/#16](https://github.com/ripe-tech/ripe-orchestra/issues/16)
+* Fix eslint dependencies problems
 
 ## [0.2.0] - 2022-05-04
 
