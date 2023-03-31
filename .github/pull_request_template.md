@@ -1,6 +1,6 @@
 | - | - |
 | --- | --- |
-| Issue | https://github.com/ripe-tech/ripe-blender-api-js/issues/XXX |
+| Issue | https://github.com/ripe-tech/ripe-core/issues/XXX |
 | Dependencies | |
 | Decisions | |
 | Animated GIF | |
